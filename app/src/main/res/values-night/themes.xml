@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+        <style name="CalcButton">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">70dp</item>
+            <item name="android:layout_columnWeight">1</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:backgroundTint">#444444</item>
+            <item name="android:stateListAnimator">@null</item>
+        </style>
+
+        <style name="NumButton" parent="CalcButton">
+            <item name="android:backgroundTint">#666666</item>
+        </style>
+
+        <style name="OpButton" parent="CalcButton">
+            <item name="android:backgroundTint">#FF9800</item>
+        </style>
+
+        <style name="EqualButton" parent="CalcButton">
+            <item name="android:backgroundTint">#FF00CC</item>
+        </style>
+
+
+</resources>

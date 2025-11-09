@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D2A3B"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:background="#17ABAF"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="0"
+        android:textColor="#F7FBF7"
+        android:textFontWeight="1500"
+        android:textSize="70dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="473dp"
+        android:layout_marginTop="16dp"
+        android:columnCount="4"
+        android:padding="8dp"
+        android:rowCount="5">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/button7"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:backgroundTint="#F7FBF7"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            style="@style/CalculatorButton"
+            android:background="#17ABAF"
+            android:text="/"
+            android:textAlignment="center"
+            android:textColor="#F7FBF7"
+            android:textColorHint="#F7FBF7"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/button4"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:backgroundTint="#F7FBF7"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp"
+            />
+
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            style="@style/CalculatorButton"
+            android:background="#17ABAF"
+            android:text="*"
+            android:textAlignment="center"
+            android:textColor="#F7FBF7"
+            android:textColorHint="#F7FBF7"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/button1"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            style="@style/CalculatorButton"
+            android:background="#17ABAF"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="#F7FBF7"
+            android:textColorHint="#F7FBF7"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/button0"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonDot"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="."
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonEqual"
+            style="@style/CalculatorButton"
+            android:background="#F7FBF7"
+            android:text="="
+            android:textAlignment="center"
+            android:textColor="#0D2A3B"
+            android:textColorHint="#0D2A3B"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            style="@style/CalculatorButton"
+            android:background="#17ABAF"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="#F7FBF7"
+            android:textColorHint="#F7FBF7"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+        <!-- Clear Button -->
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:background="#17ABAF"
+            android:text="C"
+            android:textAlignment="center"
+            android:textColor="#F7FBF7"
+            android:textColorHint="#F7FBF7"
+            android:textFontWeight="1500"
+            android:textSize="48dp" />
+
+    </GridLayout>
+
+</LinearLayout>
+
+
